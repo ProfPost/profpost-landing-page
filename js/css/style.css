@@ -1,31 +1,41 @@
 /* ----- Barra de Navegación ----- */
 .navbar {
-    padding: 1rem; /* Espacio interno alrededor de los elementos de la barra de navegación */
+    padding: 1rem;
+    background-color: #E5E8D8 /* Espacio interno alrededor de los elementos de la barra de navegación */
 }
 .btn-outline-primary {
-    color: #1abc9c; /* Color del texto del botón de contorno "Regístrate" */
-    border-color: #1abc9c; /* Color del borde del botón */
+    color: #087443; /* Color del texto del botón de contorno "Regístrate" */
+    border-color: #087443; /* Color del borde del botón */
 }
+
+.navbar .nav-link {
+    color: #000 !important; /* Cambia el color del texto de los enlaces a negro */
+}
+
+.navbar .navbar-brand {
+    color: #000 !important; /* Cambia el color del texto del logo a negro */
+}
+
 .btn-outline-primary:hover {
-    color: #fff; /* Cambia el color del texto a blanco al pasar el cursor */
-    background-color: #1abc9c; /* Cambia el fondo al color principal */
-    border-color: #1abc9c; /* Mantiene el color del borde */
+    color: #000000; /* Cambia el color del texto a blanco al pasar el cursor */
+    background-color: #087443; /* Cambia el fondo al color principal */
+    border-color: #087443; /* Mantiene el color del borde */
 }
 .btn-primary {
-    background-color: #1abc9c; /* Fondo del botón "Iniciar Sesión" */
+    background-color: #087443; /* Fondo del botón "Iniciar Sesión" */
     border: none; /* Sin borde para un diseño limpio */
 }
 .btn-primary:hover {
-    background-color: #16a085; /* Fondo del botón cuando el cursor pasa por encima */
+    background-color: #087443; /* Fondo del botón cuando el cursor pasa por encima */
 }
 
 /* ----- Sección de Introducción ----- */
 .custom-intro {
-    background-color: #f4f9fd; /* Fondo claro para destacar la introducción */
+    background-color: #F8F9F4; /* Fondo claro para destacar la introducción */
     padding: 100px 0; /* Espacio vertical grande arriba y abajo */
 }
 .custom-intro h1 {
-    color: #2c3e50; /* Color del título principal */
+    color: #323F59; /* Color del título principal */
     font-weight: bold; /* Título en negrita */
     margin-bottom: 20px; /* Espacio inferior del título */
 }
@@ -33,17 +43,17 @@
     color: #7f8c8d; /* Color de los párrafos secundarios */
 }
 .custom-intro .btn-primary {
-    background-color: #1abc9c; /* Fondo del botón "Comienza Ahora" */
+    background-color: #087443; /* Fondo del botón "Comienza Ahora" */
     border: none; /* Sin borde */
 }
 .custom-intro .btn-primary:hover {
-    background-color: #16a085; /* Fondo del botón al pasar el cursor */
+    background-color: #3C8866; /* Fondo del botón al pasar el cursor */
 }
 
 /* ----- Sección Nosotros ----- */
 #about {
     padding: 60px 0; /* Espacio vertical en la sección */
-    background-color: #ffffff; /* Fondo blanco */
+    background-color: #E5E8D8; /* Fondo blanco */
 }
 #about h2 {
     color: #2c3e50; /* Color del título de la sección */
@@ -56,18 +66,19 @@
 
 /* ----- Sección Características ----- */
 #features {
-    background-color: #f9f9f9; /* Fondo claro para separar la sección */
+    background-color: #F8F9F4; /* Fondo claro para separar la sección */
     padding: 60px 0; /* Espacio vertical en la sección */
 }
 .feature-icon {
     width: 100%; /* La imagen ocupa todo el ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
-    margin-bottom: 15px; /* Espacio inferior entre la imagen y el texto */
+    margin-bottom: 1px; /* Espacio inferior entre la imagen y el texto */
 }
 
 /* ----- Sección Testimonios ----- */
 #testimonials {
-    padding: 60px 0; /* Espacio vertical en la sección */
+    padding: 60px 0;
+    background-color: #E5E8D8 /* Espacio vertical en la sección */
 }
 .testimonial {
     padding: 20px; /* Espacio interno para la tarjeta de testimonio */
@@ -88,6 +99,9 @@
 }
 
 /* ----- Sección de Equipo ----- */
+#team {
+    background-color: #F8F9F4
+}
 #team .card {
     border: none; /* Sin borde en las tarjetas del equipo */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar las tarjetas */
@@ -109,7 +123,7 @@
 /* ----- Sección Contacto ----- */
 #contact {
     padding: 60px 0; /* Espacio vertical en la sección */
-    background-color: #f9f9f9; /* Fondo claro */
+    background-color: #E5E8D8; /* Fondo claro */
 }
 
 /* ----- Footer ----- */
